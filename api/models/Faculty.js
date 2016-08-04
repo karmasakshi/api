@@ -19,9 +19,9 @@ module.exports = {
       required: true
     },
 
-    lectures: {
+    posts: {
       collection: 'lecture',
-      via: 'faculty'
+      via: 'poster'
     }
 
   }

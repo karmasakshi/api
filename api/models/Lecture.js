@@ -15,6 +15,11 @@ module.exports = {
     },
 
     faculty: {
+      type: 'string',
+      required: true
+    },
+
+    poster: {
       model: 'faculty',
       required: true
     }
