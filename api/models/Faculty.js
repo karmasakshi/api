@@ -16,6 +16,7 @@ module.exports = {
 
     password: {
       type: 'string',
+      protected: true,
       required: true
     },
 
