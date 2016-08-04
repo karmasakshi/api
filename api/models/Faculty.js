@@ -17,6 +17,11 @@ module.exports = {
     password: {
       type: 'string',
       required: true
+    },
+
+    lectures: {
+      collection: 'lecture',
+      via: 'faculty'
     }
 
   }

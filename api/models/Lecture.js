@@ -12,6 +12,11 @@ module.exports = {
     when: {
       type: 'datetime',
       required: 'true'
+    },
+
+    faculty: {
+      model: 'faculty',
+      required: true
     }
 
   }
